@@ -3,6 +3,17 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import './filters.js';
+
+import './directives.js';
+
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import 'normalize.css'
+
+import './sass/style.sass';
+
 Vue.config.productionTip = false;
 
 new Vue({
